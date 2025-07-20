@@ -16,7 +16,8 @@ def pesquisa_binaria(lista, item):
     return None
 
 
-minha_lista = [1, 3, 5, 7, 9,50,60,80,90,95,1000]
+minha_lista = [5, 2, 150, 25,14,45,46, 41, 23]
 
 
-print(pesquisa_binaria(minha_lista, 1000))
+print(pesquisa_binaria(minha_lista, 45))
+print(pesquisa_binaria(minha_lista, -0))
